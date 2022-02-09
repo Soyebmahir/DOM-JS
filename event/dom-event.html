@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="console.log('h1 clicked')">ClickBaji Event management</h1>
+    <button onclick=document.body.style.backgroundColor="Yellow">make me yellow, Oni chan</button>
+    <button onclick="makered()">make me red, Oni chan</button>
+    <button id="make-bluebutton">make me blue, Oni chan</button>
+    <button id="make-greenbutton">make me green, Oni chan</button>
+    <button id="make-blackbutton">make me black, Oni chan</button>
+    <button id="make-orangebutton">make me orange, Oni chan</button>
+    <button id="make-pinkbutton">make me pink, Oni chan</button>
+
+
+    <script src="script.js"></script>
+    <script>
+// function makered(){
+//     document.body.style.backgroundColor="#ff0000";
+// } 
+
+    //addEventListener using shortcut
+
+    document.getElementById('make-pinkbutton').addEventListener('click',function(){
+    document.body.style.backgroundColor='hotpink';
+
+    })
+    </script>
+</body>
+</html>

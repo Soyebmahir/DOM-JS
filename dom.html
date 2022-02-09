@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Document Object Model</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h3>blog content 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum perspiciatis, distinctio nihil ea eius nam fugiat asperiores deserunt commodi cumque praesentium animi adipisci tempora omnis quos minima, accusantium aliquid soluta.</p>
+            </article>
+            <article>
+                <h3>blog content 2</h3>
+                <p>Debitis voluptatibus nulla voluptatem explicabo facere ab atque vitae, ea reiciendis asperiores impedit, neque nam ducimus at numquam suscipit quas repudiandae mollitia veniam assumenda, dolorem aspernatur quisquam repellat? Officia, officiis.</p>
+            </article>
+            <article>
+                <h3>blog content 3</h3>
+                <p>Explicabo voluptate aspernatur culpa magni temporibus sequi neque veritatis ipsa officia necessitatibus impedit iusto, enim laboriosam deserunt repudiandae odit nesciunt omnis in sint quos fugit! Magni quia voluptas unde nesciunt?</p>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        const tags = document.getElementsByTagName('p');
+        console.log(tags)
+        for(const tag of tags){
+            console.log(tag)
+           
+        }
+        for(const tag of tags){
+           
+            console.log(tag.innerText)
+        }
+    </script>
+</body>
+</html>
